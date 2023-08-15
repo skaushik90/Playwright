@@ -18,6 +18,7 @@ Playwright Learning
 
 ## How to write tests 
 Step 1 - Create a new file under test folder 
+
 Step 2 - Add module 'playwright/test' - Playwright test provides a test function to declare tests and expect function to write assertions
 ```
 import {test, expect} from '@playwright/test'
