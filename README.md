@@ -30,3 +30,19 @@ test('get started link', async ({ page }) => {
   await expect(page).toHaveTitle('Google');
 });
 ```
+## How to record test - test generator
+Playwright comes with a tool - **Codegen** also called test generator.
+Can be used to record test and generate test scripts.
+It Opens 2 windows
+1. A browser window to interacts with the website
+2. Playwright Inspector window to record test
+
+Step 1 - Open terminal and run codegen
+```
+npx playwright codegen
+```
+Step 2 - Check 2 windows open - Browser and Playwright Inspector 
+
+Step 3 - Record your test steps and check the test scripts getting created 
+
+Step 4 - Save the recorded script in a test file - Run and check
