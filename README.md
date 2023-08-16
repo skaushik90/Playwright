@@ -79,3 +79,22 @@ test.afterAll(async () => {
 ```
 
 To view the trace: npx playwright show-trace ./test-trace.zip
+
+## Tips
+
+3 ways to open debug window/playwright inspector page:
+
+```
+await page.pause();
+```
+
+```
+npx playwright test --debug
+```
+
+```
+npx playwright codegen
+```
+
+Locators and Selectors:
+https://playwright.dev/docs/locators
