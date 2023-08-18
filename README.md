@@ -88,7 +88,8 @@ To view the trace: npx playwright show-trace ./test-trace.zip
 
 ## Tags
 https://playwright.dev/docs/test-annotations#tag-tests
-You will then be able to run only that test:
+
+Run only specific tests:
 ```
 npx playwright test --grep @fast
 ```
