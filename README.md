@@ -81,10 +81,10 @@ test.afterAll(async () => {
 To view the trace: npx playwright show-trace ./test-trace.zip
 
 ##Annotation
-1. test.skip() marks the test as irrelevant. Playwright Test does not run such a test. Use this annotation when the test is not applicable in some configuration.
-2. test.fail() marks the test as failing. Playwright Test will run this test and ensure it does indeed fail. If the test does not fail, Playwright Test will complain.
-3. test.fixme() marks the test as failing. Playwright Test will not run this test, as opposed to the fail annotation. Use fixme when running the test is slow or crashes.
-4. test.slow() marks the test as slow and triples the test timeout.
+1. **test.skip()** marks the test as irrelevant. Playwright Test does not run such a test. Use this annotation when the test is not applicable in some configuration.
+2. **test.fail()** marks the test as failing. Playwright Test will run this test and ensure it does indeed fail. If the test does not fail, Playwright Test will complain.
+3. **test.fixme()** marks the test as failing. Playwright Test will not run this test, as opposed to the fail annotation. Use fixme when running the test is slow or crashes.
+4. **test.slow()** marks the test as slow and triples the test timeout.
 
 ## Tags
 https://playwright.dev/docs/test-annotations#tag-tests
