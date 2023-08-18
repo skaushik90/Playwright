@@ -1,6 +1,7 @@
 import { test, expect, chromium } from "@playwright/test";
 
-test("Slow Motion and Video Recording Demo", async () => {
+//Remove the ".skip" when running locally
+test.skip("Slow Motion and Video Recording Demo", async () => {
   const browser = await chromium.launch({
     headless: false,
     slowMo: 1000,
