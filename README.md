@@ -58,6 +58,15 @@ Step 3 - Record your test steps and check the test scripts getting created
 
 Step 4 - Save the recorded script in a test file - Run and check
 
+| Command                                     | Meaning                                          |
+| ------------------------------------------- | ------------------------------------------------ |
+| npx playwright codegen --browser firefox | Record on a specific browser  |
+| npx playwright codegen --target javascript -o record_example.js | Record and save to a file |
+| npx playwright codegen --viewport-size=800,600 | Set screen resolution | 
+| npx playwright codegen --device="iPhone 11" | Emulate devices |
+| npx playwright codegen --color-scheme=dark | Emulate color scheme |
+| npx playwright codegen --help | Other options |
+
 ## Trace Viewer
 
 GUI tool that helps viewing the executed test along with snapshops, timeline and other details (traces).
